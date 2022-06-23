@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{6b300372-d2c5-40ed-8474-e5f6cc64845c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\DObjectCreator">
+      <UniqueIdentifier>{cd5f176e-ac7d-4696-970f-f866a6814091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\GlobalObjectCreator">
+      <UniqueIdentifier>{60cea717-3fe8-4c25-bfef-f4bd0952e050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\LogicComponentCreator">
+      <UniqueIdentifier>{f53746cb-12cf-4a11-885d-da7bd9ada418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\AIStateLogicCreator">
+      <UniqueIdentifier>{17a1c118-3a9e-4f66-b566-7836251e0283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\AILogicConditionCreator">
+      <UniqueIdentifier>{a9a82145-a0e5-46e2-ba12-cdc5e0be669c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\EventCreator">
+      <UniqueIdentifier>{f4a24370-a916-4c72-a226-ef26a096ad15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{baffee4b-e214-4181-a330-74fc56754b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\CollisionListenerCreator">
+      <UniqueIdentifier>{d22535d5-9ae5-465b-a468-c65a7f6919d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\VertexShaderCreator">
+      <UniqueIdentifier>{ee7880a8-626e-49a0-9aa3-e4121dcc9a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\PixelShaderCreator">
+      <UniqueIdentifier>{dd6df0dc-4a84-42dd-9c4f-0ea375b5224b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\UserPostProcessCreator">
+      <UniqueIdentifier>{93169e69-eb4e-4c45-979d-81b583b3f99b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="DObjectCreator.cpp">
+      <Filter>Main\DObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicComponentCreator.cpp">
+      <Filter>Main\LogicComponentCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalObjectCreator.cpp">
+      <Filter>Main\GlobalObjectCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="AIStateLogicCreator.cpp">
+      <Filter>Main\AIStateLogicCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="AILogicConditionCreator.cpp">
+      <Filter>Main\AILogicConditionCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="EventCreator.cpp">
+      <Filter>Main\EventCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionListenerCreator.cpp">
+      <Filter>Main\CollisionListenerCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShaderCreator.cpp">
+      <Filter>Main\PixelShaderCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShaderCreator.cpp">
+      <Filter>Main\VertexShaderCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPostProcessCreator.cpp">
+      <Filter>Main\UserPostProcessCreator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="DObjectCreator.h">
+      <Filter>Main\DObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicComponentCreator.h">
+      <Filter>Main\LogicComponentCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalObjectCreator.h">
+      <Filter>Main\GlobalObjectCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="AIStateLogicCreator.h">
+      <Filter>Main\AIStateLogicCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="AILogicConditionCreator.h">
+      <Filter>Main\AILogicConditionCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="EventCreator.h">
+      <Filter>Main\EventCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionListenerCreator.h">
+      <Filter>Main\CollisionListenerCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShaderCreator.h">
+      <Filter>Main\PixelShaderCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShaderCreator.h">
+      <Filter>Main\VertexShaderCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPostProcessCreator.h">
+      <Filter>Main\UserPostProcessCreator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

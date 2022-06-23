@@ -1,0 +1,6 @@
+#pragma once
+namespace Creator
+{
+	void AILogicCondition(std::ofstream& cpp, std::ofstream& h, const std::string& className, const std::string& parentName);
+
+}

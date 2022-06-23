@@ -1,0 +1,1 @@
+copy ".\x64\Release\ClassFactory.exe" "C:\Users\doun1\Desktop\Utilities\ClassFactory.exe"
